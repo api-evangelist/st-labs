@@ -1,22 +1,49 @@
 aid: st-labs
 name: ST Labs
-description: 'ST Labs is a company surfaced as a portfolio company of crv, iconiq-capital and added to
-  the API Evangelist network as a stub for enrichment. Sector: unknown. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'ST Labs (Standard Template Labs, stlabs.com) is an AI-native IT service
+  management platform that turns historical ticket data, knowledge bases, and enterprise
+  integrations into instant resolutions, automated workflows, and a living graph of
+  the organization. Its capabilities span smart ticket enrichment (auto-classify,
+  prioritize, attach resolution context), AI clustering into self-healing workflows,
+  AI-agent self-service, and a "Digital Twin" / Axiom context graph that maps real-time
+  relationships between people, applications, infrastructure, and processes and is
+  queryable in natural language. The product connects to 100+ systems (ServiceNow,
+  Okta, AWS, Datadog, Slack, Workday, and more) across ITSM, identity, cloud, security,
+  and collaboration. As of mid-2026 the company is in early-access/waitlist stage with
+  no public developer API, and is backed by CRV and ICONIQ Capital.'
 url: https://raw.githubusercontent.com/api-evangelist/st-labs/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: approval
+  trial: false
+  try_now: false
+  public: false
+  label: Requires approval
+  confidence: medium
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://stlabs.com/images/og-default.jpg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - crv
 - iconiq-capital
-x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier: profiled
+x-tier-reason: enriched-no-api-surface
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
-- Unknown
+- IT Service Management
+- ITSM
+- IT Operations
+- AI Agents
+- Workflow Automation
+- Service Desk
+- Digital Twin
+- Enterprise Software
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -26,3 +53,28 @@ maintainers:
 common:
 - type: Website
   url: https://stlabs.com/
+- type: Pricing
+  url: https://stlabs.com/pricing
+- type: SignUp
+  url: https://stlabs.com/demo
+- type: TermsOfService
+  url: https://stlabs.com/terms
+- type: PrivacyPolicy
+  url: https://stlabs.com/privacy
+- type: Blog
+  url: https://stlabs.com/blog
+- type: Security
+  url: https://stlabs.com/security
+- type: LLMsTxt
+  url: llms/st-labs-llms.txt
+- type: VulnerabilityDisclosure
+  url: security/st-labs-vulnerability-disclosure.yml
+- type: TrustCenter
+  url: security/st-labs-trust-center.yml
+- type: DomainSecurity
+  url: security/st-labs-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 5
+  pass: local-v1

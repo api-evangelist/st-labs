@@ -1,0 +1,34 @@
+# STLabs
+
+> AI-native service management platform. Turns historical ticket data, knowledge bases, and integrations into instant resolutions, automated workflows, and a living graph of your organization.
+
+## What STLabs Does
+
+STLabs is an AI-first service management platform built on a living graph. It ingests data from existing ticketing systems, knowledge bases, identity providers, device management tools, and enterprise applications — then uses that data to power AI agents, workflow automation, and deep operational intelligence.
+
+Core capabilities:
+- Smart Ticket Enrichment: Auto-classifies, prioritizes, and attaches resolution context to every incoming ticket in real time
+- Intelligent Workflows: AI clustering of historical and incoming tickets to surface patterns, auto-generate self-healing workflows, and resolve at scale
+- AI Agents: End users solve known problems instantly through AI-powered self-service
+- Digital Twin: A self-maintaining context graph that maps real-time relationships between people, applications, infrastructure, and processes — queryable in natural language
+
+## Key Differentiators
+
+- AI-native architecture, not AI bolted onto a legacy ticket database
+- Digital Twin replaces traditional CMDB — a context graph with zero manual data entry, self-maintaining, integration-fed
+- All data stored as timestamped assertions with provenance
+- Self-healing integrations that adapt when upstream APIs change
+- Modular: use end-to-end or plug individual capabilities into existing tooling
+- SOC 2 Type II in progress, human-in-the-loop, policy guardrails
+
+## Getting Started
+
+STLabs is modular. Start with historical ticket data (no org-wide access required), then expand to live enrichment, workflow automation, and the full Digital Twin.
+
+## Links
+
+- [Product Details](https://stlabs.com/product)
+- [Pricing](https://stlabs.com/pricing)
+- [Blog](https://stlabs.com/blog)
+- [Engineering Blog](https://stlabs.com/engineering)
+- [Full Documentation](https://stlabs.com/llms-full.txt)

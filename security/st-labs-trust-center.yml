@@ -1,0 +1,18 @@
+generated: '2026-07-21'
+method: searched
+probe: true
+source: https://stlabs.com/security
+url: https://stlabs.com/security
+# STLabs is an early-access/waitlist-stage company. Its /security page names SOC 2
+# Type II only as "pursuing" (in progress, NOT achieved) and references ISO 27001 /
+# FedRAMP solely for its underlying cloud infrastructure providers — not as STLabs's
+# own certifications. Per no-fabrication, achieved certifications is empty.
+certifications: []
+in_progress:
+- SOC 2 Type II
+notes: 'SOC 2 Type II in progress (stated on /security and llms.txt); ISO 27001 and FedRAMP referenced only for upstream cloud infrastructure providers, not held by STLabs.'
+evidence:
+- source: https://stlabs.com/security
+  keywords:
+  - soc 2 type ii (pursuing)
+  - security practices
