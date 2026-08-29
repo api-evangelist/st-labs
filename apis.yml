@@ -12,6 +12,17 @@ description: 'ST Labs (Standard Template Labs, stlabs.com) is an AI-native IT se
   and collaboration. As of mid-2026 the company is in early-access/waitlist stage with
   no public developer API, and is backed by CRV and ICONIQ Capital.'
 url: https://raw.githubusercontent.com/api-evangelist/st-labs/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: approval
