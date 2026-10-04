@@ -50,7 +50,7 @@ tags:
 - ITSM
 - IT Operations
 - AI Agents
-- Workflow-Automation
+- Workflow Automation
 - Service Desk
 - Digital Twin
 - Enterprise Software
@@ -64,6 +64,7 @@ tags_raw:
 - Service Desk
 - Digital Twin
 - Enterprise Software
+- Workflow-Automation
 apis: []
 maintainers:
 - FN: Kin Lane
