@@ -1,0 +1,29 @@
+generated: '2026-10-14'
+method: searched
+checked:
+- okta/integrations/okta-integration-edges.yml
+source:
+- okta/integrations/okta-integration-edges.yml
+edges:
+- partner_name: Okta (own)
+  partner: okta
+  partner_match: mirror
+  mirror_match: domain
+  type: marketplace
+  relationship: platform-app
+  direction: third-party
+  channel: partner-built
+  marketplace: own
+  evidence: https://www.okta.com/integrations/integrator-6244782_stlabs_2/
+  mirror_of: okta/integrations/okta-integration-edges.yml
+  apps:
+  - STLabs
+  listing_count: 1
+  detected: '2026-10-14'
+  detected_by: mirror-platform-listings.py
+  category: Single Sign-On
+  badges:
+  - OKTA_VERIFIED
+  features:
+  - API
+  - CUSTOM_SOM
