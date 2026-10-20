@@ -7,7 +7,7 @@
   label: Okta (own)
   partner: okta
   partner_name: Okta (own)
-  category: Single Sign-On
+  category: Automation
   type: marketplace
   marketplace: own
   channel: partner-built

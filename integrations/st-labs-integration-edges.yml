@@ -21,7 +21,7 @@ edges:
   listing_count: 1
   detected: '2026-10-14'
   detected_by: mirror-platform-listings.py
-  category: Single Sign-On
+  category: Automation
   badges:
   - OKTA_VERIFIED
   features:
